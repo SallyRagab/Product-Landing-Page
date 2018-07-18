@@ -2,9 +2,90 @@
 
 html,
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Open Sans', sans-serif;
   background: #000;
   color: #fff;
   padding: 0;
+  min-width: 320px;
+  letter-spacing: 1.1px;
+}
+
+.logo {
+
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+ul {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2em;
+  width: 100%;
+}
+
+li {
+  padding: 0 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: transparent solid 1px;
+}
+
+nav ul li a:hover {
+  border-bottom: #fff solid 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.paragraph {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  padding: 5px;
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+}
+
+[type= 'email']{
+  padding: 5px;
+  border-radius: 3px;
+  width: 20%;
+  font-size: 14px;
+}
+
+button {
+  margin: 15px;
+}
+
+.video {
+  width: 70%;
+  margin: auto;
+}
+
+.packages {
+  display: flex;
+
+}
+.general, .seating, .vip {
+  background: #54585E;
+  margin: 5px;
 }
