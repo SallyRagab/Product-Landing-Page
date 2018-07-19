@@ -1,51 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
-  background: #000;
+  font-family: 'Varela Round', sans-serif;
+  background: #faf5e2;
   color: #fff;
   padding: 0;
+  margin: 0;
   min-width: 320px;
   letter-spacing: 1.1px;
-}
-
-.logo {
-
 }
 
 .main-menu {
   display: flex;
   align-items: center;
-  background-color: #000;
-  padding: 10px;
+  justify-content: space-around;
   width: 100%;
   margin: 0;
 }
 
-ul {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+nav ul {
+  font-family: 'Varela Round', sans-serif;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  font-size: 2em;
+  font-size: 20px;
   width: 100%;
+  margin: 0;
 }
 
-li {
-  padding: 0 50px;
+nav ul li {
+  padding: 0 40px;
+  margin: 0;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ed4c91;
   border-bottom: transparent solid 1px;
 }
 
 nav ul li a:hover {
-  border-bottom: #fff solid 1px;
-  color: #fff;
+  border-bottom: #ed4c91 solid 1px;
+  color: #ed4c91;
   text-decoration: none;
 }
 
@@ -54,38 +50,92 @@ h1 {
 }
 
 .paragraph {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+  font-family: 'Varela Round', sans-serif;
   font-size: 27px;
   padding: 5px;
 }
 
 .header {
-  padding: 150px;
   text-align: center;
+  margin: auto;
+  height: 550px;
+  background: url('https://preview.ibb.co/cLhYmy/Untitled_design.png:100%') #ed4c91 center no-repeat;
+  background-size: 100%;
 }
 
-[type= 'email']{
+[type= 'email'] {
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 8px;
   width: 20%;
-  font-size: 14px;
+  font-size: 12px;
+  background-color: #faf5e2;
+  color: #ed4c91;
+}
+
+::placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+:-ms-input-placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+::-ms-input-placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+.header-content {
+  margin: auto;
 }
 
 button {
   margin: 15px;
+  background-color: #ed4c91;
+  color: #fff;
 }
 
 .video {
-  width: 70%;
+  color: #ed4c91;
   margin: auto;
+}
+.tickets {
+  color: #ed4c91;
 }
 
 .packages {
   display: flex;
-
+  justify-content: center;
 }
 .general, .seating, .vip {
-  background: #54585E;
+  background: #ed4c91;
   margin: 5px;
+}
+footer {
+  background: #ed4c91;
+  text-align: center;
+  padding: 16px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  border-radius: 2px;
+}
+footer ul {
+  font-family: 'Varela Round', sans-serif;
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  
+}
+footer ul li {
+  padding: 0 20px;
+  margin: 0;
+}
+.credits {
+}
+.copyright {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 100;
 }
