@@ -111,11 +111,11 @@ button {
 
 #features {
   color: #ed4c91;
-  padding: 70px 70px 0 70px;
+  padding: 70px 70px 0 150px;
 }
 
 #features h2 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   padding: 0 0 5 0;
   margin: 0;
@@ -124,6 +124,17 @@ button {
 #features p {
   padding: 0 0 50px 0;
   margin: 0;
+  font-weight: bold;
+}
+.feature {
+  display: flex;
+  justify-content: space-around;
+}
+.grid {
+  width: 80%;
+}
+.icon {
+  padding-top: 5px;
 }
 #video {
   padding: 70px;
