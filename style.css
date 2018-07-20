@@ -47,6 +47,7 @@ nav ul li a:hover {
 
 h1 {
   font-size: 70px;
+  font-weight: bold;
 }
 
 .paragraph {
@@ -57,10 +58,14 @@ h1 {
 
 .header {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
   margin: auto;
   height: 550px;
   background: url('https://preview.ibb.co/cLhYmy/Untitled_design.png:100%') #ed4c91 center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 [type= 'email'] {
@@ -72,6 +77,7 @@ h1 {
   color: #ed4c91;
 }
 
+/*-- placeholder --*/
 ::placeholder {
   color: #ed4c91;
   text-align: center;
@@ -84,36 +90,77 @@ h1 {
   color: #ed4c91;
   text-align: center;
 }
-.header-content {
-  margin: auto;
+input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
-
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/*===============================*/
 button {
   margin: 15px;
   background-color: #ed4c91;
   color: #fff;
 }
 
-.video {
+#features {
   color: #ed4c91;
-  margin: auto;
-}
-.tickets {
-  color: #ed4c91;
+  padding: 70px 70px 0 70px;
 }
 
-.packages {
+#features h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 0 5 0;
+  margin: 0;
+}
+
+#features p {
+  padding: 0 0 50px 0;
+  margin: 0;
+}
+#video {
+  padding: 70px;
   display: flex;
   justify-content: center;
 }
-.general, .seating, .vip {
-  background: #ed4c91;
-  margin: 5px;
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px 70px 30px;
 }
+.package {
+  border: #ed4c91 solid 1px;
+  color: #ed4c91;
+  margin: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.package h3{
+  background: #ed4c91;
+  color: #faf5e2;
+  padding: 10px;
+  font-weight: bold;
+}
+.package h4 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
 footer {
   background: #ed4c91;
+  color: #fff;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   width: 70%;
   margin: 0 auto;
   font-size: 16px;
@@ -123,15 +170,27 @@ footer ul {
   font-family: 'Varela Round', sans-serif;
   list-style: none;
   display: flex;
-  font-size: 16px;
+  font-size: 15px;
   justify-content: center;
-  
+  margin: 0;
+  padding: 0 0 5px 0 ;
 }
 footer ul li {
   padding: 0 20px;
   margin: 0;
 }
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 .credits {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
 }
 .copyright {
   margin: 0;
