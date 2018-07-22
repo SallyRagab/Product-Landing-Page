@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+html,
+body {
+  font-family: 'Varela Round', sans-serif;
+  background: #faf5e2;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  font-family: 'Varela Round', sans-serif;
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0 40px;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ed4c91;
+  border-bottom: transparent solid 1px;
+}
+
+nav ul li a:hover {
+  border-bottom: #ed4c91 solid 1px;
+  color: #ed4c91;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 27px;
+  padding: 5px;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: auto;
+  height: 550px;
+  background: url('https://preview.ibb.co/cLhYmy/Untitled_design.png:100%') #ed4c91 center no-repeat;
+  background-size: cover;
+}
+
+[type= 'email'] {
+  padding: 5px;
+  border-radius: 8px;
+  width: 20%;
+  font-size: 12px;
+  background-color: #faf5e2;
+  color: #ed4c91;
+}
+
+/*-- placeholder --*/
+::placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+:-ms-input-placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+::-ms-input-placeholder {
+  color: #ed4c91;
+  text-align: center;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/*===============================*/
+button {
+  margin: 15px;
+  background-color: #ed4c91;
+  color: #fff;
+}
+
+#features {
+  color: #ed4c91;
+  padding: 70px 70px 0 150px;
+}
+
+#features h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 0 5 0;
+  margin: 0;
+}
+
+#features p {
+  padding: 0 0 50px 0;
+  margin: 0;
+  font-weight: bold;
+}
+.feature {
+  display: flex;
+  justify-content: space-around;
+}
+.grid {
+  width: 80%;
+}
+.icon {
+  padding-top: 5px;
+}
+#video {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px 70px 30px;
+}
+.package {
+  border: #ed4c91 solid 1px;
+  color: #ed4c91;
+  margin: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.package h3{
+  background: #ed4c91;
+  color: #faf5e2;
+  padding: 10px;
+  font-weight: bold;
+}
+.package h4 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+footer {
+  background: #ed4c91;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  border-radius: 2px;
+}
+footer ul {
+  font-family: 'Varela Round', sans-serif;
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  margin: 0;
+  padding: 0 0 5px 0 ;
+}
+footer ul li {
+  padding: 0 20px;
+  margin: 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.credits {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.copyright {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 100;
+}
