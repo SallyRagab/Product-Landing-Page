@@ -7,8 +7,12 @@ body {
   color: #fff;
   padding: 0;
   margin: 0;
-  min-width: 320px;
   letter-spacing: 1.1px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
 .main-menu {
@@ -19,13 +23,17 @@ body {
   margin: 0;
 }
 
+img {
+  margin: auto;
+}
+
 nav ul {
   font-family: 'Varela Round', sans-serif;
   list-style: none;
   display: flex;
   font-size: 20px;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 nav ul li {
@@ -111,7 +119,7 @@ button {
 
 #features {
   color: #ed4c91;
-  padding: 70px 70px 0 150px;
+  padding: 70px 0 0 0;
 }
 
 #features h2 {
@@ -130,14 +138,11 @@ button {
   display: flex;
   justify-content: space-around;
 }
-.grid {
-  width: 80%;
-}
 .icon {
   padding-top: 5px;
 }
 #video {
-  padding: 70px;
+  padding: 70px 0;
   display: flex;
   justify-content: center;
 }
@@ -147,20 +152,23 @@ button {
   justify-content: center;
   padding: 0 30px 70px 30px;
 }
+
 .package {
   border: #ed4c91 solid 1px;
   color: #ed4c91;
-  margin: 20px;
-  width: 20%;
+  margin: 1%;
   text-align: center;
+  border-radius: 5px;
+  padding: 0;
 }
 
 .package h3{
   background: #ed4c91;
   color: #faf5e2;
-  padding: 10px;
   font-weight: bold;
+  padding: 10px;
 }
+
 .package h4 {
   font-weight: bold;
   font-size: 30px;
